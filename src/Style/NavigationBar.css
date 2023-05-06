@@ -1,0 +1,25 @@
+.nav-hub {
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+  background-image: linear-gradient(
+    to right,
+    black,
+    black,
+    #031130,
+    #04253f,
+    #064455,
+    #097779,
+    #088187,
+    #078f9c
+  );
+  height: 80px;
+  display: flex;
+}
+.nav-hub .nav .me-auto {
+  margin-left: 490px;
+}
+.nav-hub .nav .me-auto .link {
+  color: white;
+
+}

@@ -1,0 +1,31 @@
+.footer h4{
+    color: #04253f;
+    background-color: white;
+    text-align: center;
+    max-width: 50%;
+}
+.footer #about{
+    color:gray;
+    font-style: italic;
+}
+.footer .icons a{
+
+    padding: 10px;
+    font-size: 30px;
+}
+.footer .col-lg-3 ul{
+    list-style-type: none;
+}
+.footer .col-lg-3 a{
+    color:   #078f9c;
+    text-decoration: none;
+    margin: 10px;
+    padding: 10px;
+}
+.footer .col-lg-3 a:hover{
+    text-decoration: underline;
+}
+.footer .details{
+    color:gray;
+    font-style: italic;
+}

@@ -1,0 +1,65 @@
+body {
+  background-color: black;
+}
+.login-head{
+    color: #088187 !important;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.login-btn{
+  border:1px solid #04253f;
+  color: #064455 !important;
+}
+.login-btn:hover{
+  border:1px solid #04253f;
+  background-color: #078f9c !important;
+}
+.signin{
+  background: linear-gradient(
+    to right,
+    #04253f,
+    #064455,
+    #097779,
+    #088187,
+    #078f9c
+  );
+  color: white;
+  border:1px solid blue;
+}
+.gradient-custom-2 {
+  /* fallback for old browsers */
+  background: #fccb90;
+
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #04253f,
+    #064455,
+    #097779,
+    #088187,
+    #078f9c
+  );
+
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(
+    to right,
+    #04253f,
+    #064455,
+    #097779,
+    #088187,
+    #078f9c
+  );
+}
+
+@media (min-width: 768px) {
+  .gradient-form {
+    height: 100vh !important;
+  }
+}
+@media (min-width: 769px) {
+  .gradient-custom-2 {
+    border-top-right-radius: 0.3rem;
+    border-bottom-right-radius: 0.3rem;
+  }
+}
