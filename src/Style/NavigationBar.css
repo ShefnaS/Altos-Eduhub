@@ -13,13 +13,40 @@
     #088187,
     #078f9c
   );
-  height: 80px;
+  height: 70px;
   display: flex;
 }
 .nav-hub .nav .me-auto {
-  margin-left: 490px;
+  margin-left: 400px;
 }
 .nav-hub .nav .me-auto .link {
   color: white;
-
+  
+}
+@media(max-width : 768px){
+  .nav-hub .nav .me-auto {
+    margin-left: 0px;
+   background-color: #031130;
+   color: white;
+  width: auto !important;
+  text-align: center;
+  }
+  .toggle{
+   margin-left: 450px;
+  }
+}
+@media(max-width : 426px){
+  .toggle{
+   margin-left: 150px;
+  }
+}
+@media(max-width : 376px){
+  .toggle{
+   margin-left: 80px !important;
+  }
+}
+@media(max-width : 321px){
+  .toggle{
+   margin-left: 50px !important;
+  }
 }

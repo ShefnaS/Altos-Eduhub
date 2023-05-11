@@ -1,0 +1,28 @@
+.placement .content .part1{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+.placement .content .part1 h1{
+    color: #088187;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+.placement .content .part1 h5{
+    color: gray;
+}
+.placement .content .part1 p{
+    color: #088187;
+}
+.placement .content .part2 .placed{
+    margin-bottom: 50px;
+    justify-content: space-evenly;
+}
+.placement .content .part2 .placed .placed1{
+        border: 1px solid #088187;
+        padding: 15px;
+}
+.placement .content .part2 .placed .placed1 .details{
+    padding: 20px;
+    background-color: #088187;
+}

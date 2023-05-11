@@ -29,3 +29,12 @@
     color:gray;
     font-style: italic;
 }
+@media(max-width:426px){
+    .footer .icons a{
+
+        padding: 5px;
+    }
+    .footer h4{
+        max-width: 60%;
+    }
+}

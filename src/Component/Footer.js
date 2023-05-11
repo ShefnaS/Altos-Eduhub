@@ -9,8 +9,8 @@ import '../Style/Footer.css'
 
 function Footer() {
   return (
-    <div className="footer">
-      <div className="row mx-5 mt-5">
+    <div className="footer mb-5">
+      <div className="row mx-5 mt-3">
         <div className="col-lg-5 col-md-6 col-sm-12 col-xs-12 section">
           <div className="d-flex flex-column flex-wrap">
             <img

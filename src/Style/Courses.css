@@ -1,0 +1,78 @@
+.courses .content h1 {
+  text-align: center;
+  color: #088187;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+    margin-top: 130px;
+}
+.courses .content .d-flex{
+    margin: auto;
+}
+.courses .content .input{
+    width: 90%;
+    padding: 5px;
+}
+.courses .content .btn{
+    border:1px solid #088187;
+    background-color: transparent;
+    border-radius: 50px;
+    color: white;
+    margin-left: 20px;
+}
+.courses .content .row{
+    margin-bottom: 50px;
+}
+.courses .content .row .d-flex {
+    justify-content: space-evenly;
+}
+.courses .content .row .d-flex .rect{
+    width: 30%;
+    border:2px solid  #088187;
+    padding: 20px;
+    border-radius: 10px;
+    color: gray;
+}
+.courses .content .row .d-flex .rect:hover{
+    background-color: #065b60;
+    color: white;
+    transition: 0.3s ease-in-out;
+}
+.courses .content .row .d-flex .rect h4{
+    text-align: center;
+    color: #08d3de;
+}
+.courses .content .row .d-flex label{
+    color: #08d3de;
+}
+@media(max-width : 768px){
+    .courses .content .input{
+        width: 85%;
+        padding: 5px;
+    }
+}
+@media(max-width : 427px){
+    .courses .content .input{
+        width: 75%;
+        padding: 5px;
+    }
+    .courses .content .row .d-flex .rect{
+        width: 70%;
+        margin: 10px;
+    }
+}
+@media(max-width : 400px){
+    .courses .content .input{
+        width: 65%;
+        padding: 5px;
+    }
+    .courses .content .row .d-flex .rect{
+        width: 75%;
+        margin: 10px;
+    }
+}
+@media(max-width : 400px){
+    .courses .content .row .d-flex .rect{
+        width: 85%;
+        margin: 10px;
+    }
+}

@@ -1,0 +1,24 @@
+.contact .content .row .col-lg-5 h1{
+    color: #097779;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.contact .content .row .col-lg-5 .part{
+   padding: 20px;
+}
+.contact .content .row .col-lg-5 .part .icon{
+    background: white;
+    padding: 5px;
+    font-size: 30px;
+    border-radius: 50px;
+    margin: 5px;
+}    
+.contact .content .row .col-lg-5 .part h4{
+    color: #097779;
+}
+.contact .content .row .col-lg-5 .part span{
+    color: gray;
+}
+.contact .content .row .col-lg-5 .part .detail{
+    margin-left: 80px;
+    margin-top: -38px;
+}

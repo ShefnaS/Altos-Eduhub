@@ -17,7 +17,7 @@ function Home() {
       <div className="nav">
         <NavigationBar />
       </div>
-      <div className="section1">
+      <div className="section1 container">
         <div className="row">
         <div className="col-lg-7 col-md-12 col-sm-12 col-xs-12">
           <div className="part1">

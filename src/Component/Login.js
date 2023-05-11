@@ -66,9 +66,9 @@ function Login() {
           </div>
         </MDBCol>
 
-        <MDBCol col="6" className="mb-5">
+        <MDBCol col="6" className="mb-5 new">
           <div className="d-flex flex-column  justify-content-center gradient-custom-2 h-100 mb-4">
-            <div className="text-white px-3 py-4 p-md-5 mx-md-4">
+            <div className="text-white px-3 text-center">
               <h4 class="mb-4">We are more than just a company</h4>
               <p class="small mb-0">
                 We are focused on providing advanced level software training
